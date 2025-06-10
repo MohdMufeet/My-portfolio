@@ -1,0 +1,126 @@
+/* ul .nav-link {
+  transition: border 0.3s ease;
+  cursor: pointer;
+  
+}
+ul .nav-link:hover{
+  border-bottom: 3px solid yellow;
+} */
+
+/* Home */
+
+/* .img{
+  width: 220px;
+  height: 220px;
+  border: 10px solid #09d249;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border:2px solid #000;
+  box-shadow: 10px 10px 10px rgba(234, 42, 42, 0.5);
+  animation:dol 3s linear infinite;
+}
+
+@keyframes dol{
+  0%{
+   border:2px solid #40ef0b;
+  box-shadow: 10px 10px 10px rgba(33, 240, 6, 0.5);
+    transform: translate(0px, 0px);
+  }
+  25%{
+   border:2px solid #f82424;
+  box-shadow: 0px 10px 10px rgba(251, 35, 35, 0.5);
+  }
+  50%{
+   border:2px solid #7d0cff;
+  box-shadow: 10px 10px 10px rgba(20, 40, 255, 0.5);
+   transform: translate(0px, 10px);
+  }
+  75%{
+   border:2px solid #08c1ff;
+  box-shadow: 0px 0px 10px rgba(15, 251, 255, 0.5);
+  }
+  100%{
+    border:2px solid #f814dd;
+    box-shadow: 10px 10px 10px rgba(228, 42, 234, 0.5);
+    transform: translate(-0px, -0px);
+  }
+} */
+body{
+  scroll-behavior: smooth;
+}
+
+.imglk{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border:2px solid #000;
+  box-shadow: 10px 10px 10px rgba(234, 42, 42, 0.5);
+  animation:dol 3s linear infinite;
+}
+
+@keyframes dol{
+  0%{
+   border:2px solid #40ef0b;
+  box-shadow: 10px 10px 10px rgba(33, 240, 6, 0.5);
+    transform: translate(0px, 0px);
+  }
+  25%{
+   border:2px solid #f82424;
+  box-shadow: 0px 10px 10px rgba(251, 35, 35, 0.5);
+  }
+  50%{
+   border:2px solid #7d0cff;
+  box-shadow: 10px 10px 10px rgba(20, 40, 255, 0.5);
+   transform: translate(0px, 10px);
+  }
+  75%{
+   border:2px solid #08c1ff;
+  box-shadow: 0px 0px 10px rgba(15, 251, 255, 0.5);
+  }
+  100%{
+    border:2px solid #f814dd;
+    box-shadow: 10px 10px 10px rgba(228, 42, 234, 0.5);
+    transform: translate(-0px, -0px);
+  }
+}
+
+.bg-blue{
+  background-color: #12033d;
+}
+
+/* skills */
+
+.s-box {
+ 
+  height: 223px;
+  
+ 
+  
+}
+
+.items,.items-a,.items-b{
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  color: aliceblue;
+  transition:all .2s linear;
+  
+}
+.items:hover{
+  background-color: rgb(26, 0, 175);
+  /* color: black; */
+}
+.items-a:hover{
+  background-color: rgb(255, 0, 111);
+  /* color: black; */
+}
+.items-b:hover{
+  background-color: rgb(209, 46, 46);
+  /* color: black; */
+}

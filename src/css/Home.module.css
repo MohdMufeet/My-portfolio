@@ -1,0 +1,19 @@
+/* ul .nav-link {
+  transition: border 0.3s ease;
+  cursor: pointer;
+  
+}
+ul .nav-link:hover{
+  border-bottom: 3px solid yellow;
+} */
+
+/* Home */
+
+.img{
+  width: 220px;
+  height: 220px;
+  border: 10px solid #09d249;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
