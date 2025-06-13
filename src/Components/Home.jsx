@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../css/Home.module.css";
+
 import { useRef,useEffect } from "react";
 import Typed from "typed.js";
 
@@ -35,7 +35,7 @@ const Home = () => {
         </div>
         <div className="col right d-flex justify-content-center align-items-center">
           <div data-aos="fade-up-right" data-aos-duration="1000" className="img d-flex justify-content-center align-items-center">
-            <img className="imglk mb-5" src="././src/assets/1732446952383_3.jpg" alt="" />
+            <img className="imglk mb-5" alt="abc" />
           </div>
         </div>
       </div>
