@@ -54,7 +54,29 @@ img{
 body{
   scroll-behavior: smooth;
 }
+/* home */
+.img{
+  width: 220px;
+  height: 220px;
+  border: 10px solid #09d249;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
 
+/* navbar */
+.abc {
+  transition:all 0.3s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+.abc:hover{
+  outline: 3px solid yellow;
+}
+.abc:active{
+  background-color: yellow;
+  color: black;
+}
+/* end*/
 .imglk{
   width: 200px;
   height: 200px;

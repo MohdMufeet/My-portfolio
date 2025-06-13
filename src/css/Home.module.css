@@ -9,11 +9,5 @@ ul .nav-link:hover{
 
 /* Home */
 
-.img{
-  width: 220px;
-  height: 220px;
-  border: 10px solid #09d249;
-  border-radius: 50%;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-}
+
 

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../css/home.module.css";
+import styles from "../css/Home.module.css";
 import { useRef,useEffect } from "react";
 import Typed from "typed.js";
 
